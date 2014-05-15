@@ -1,0 +1,32 @@
+﻿Build started 2014-05-02 9:28:29 PM.
+     1>Project "C:\Users\Hubert\documents\visual studio 2013\Projects\Yingge\Yingge\Yingge.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SFML\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D SFML_STATIC /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug Static\\" /Fd"Debug Static\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt core\clickable.cpp core\cutscene.cpp core\entitymanager.cpp core\scenemanager.cpp core\session.cpp global.cpp Main.cpp
+         Main.cpp
+         global.cpp
+         session.cpp
+         scenemanager.cpp
+         entitymanager.cpp
+         cutscene.cpp
+         clickable.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hubert\documents\visual studio 2013\Projects\Yingge\Debug Static\Yingge.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML\SFML-2.1\extlibs\libs-msvc\x86" /LIBPATH:"C:\SFML\SFML-2.1\Staitc Libs\Debug" "sfml-graphics-s-d.lib" "sfml-window-s-d.lib" "sfml-system-s-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Hubert\documents\visual studio 2013\Projects\Yingge\Debug Static\Yingge.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hubert\documents\visual studio 2013\Projects\Yingge\Debug Static\Yingge.lib" /MACHINE:X86 "Debug Static\clickable.obj"
+         "Debug Static\cutscene.obj"
+         "Debug Static\entitymanager.obj"
+         "Debug Static\scenemanager.obj"
+         "Debug Static\session.obj"
+         "Debug Static\global.obj"
+         "Debug Static\Main.obj"
+     1>cutscene.obj : error LNK2019: unresolved external symbol "public: void __thiscall sf::SoundStream::play(void)" (?play@SoundStream@sf@@QAEXXZ) referenced in function "public: bool __thiscall <lambda_26b130a1cd2a1d2b0511ef681abc95d1>::operator()(void)const " (??R<lambda_26b130a1cd2a1d2b0511ef681abc95d1>@@QBE_NXZ)
+     1>cutscene.obj : error LNK2019: unresolved external symbol "public: void __thiscall sf::SoundStream::pause(void)" (?pause@SoundStream@sf@@QAEXXZ) referenced in function "public: bool __thiscall <lambda_f6aff717a2c6b4e44c69ed36a50ec06b>::operator()(void)const " (??R<lambda_f6aff717a2c6b4e44c69ed36a50ec06b>@@QBE_NXZ)
+     1>cutscene.obj : error LNK2019: unresolved external symbol "public: void __thiscall sf::SoundStream::stop(void)" (?stop@SoundStream@sf@@QAEXXZ) referenced in function "public: bool __thiscall <lambda_3be96f685649b92819831fb6e8da0e26>::operator()(void)const " (??R<lambda_3be96f685649b92819831fb6e8da0e26>@@QBE_NXZ)
+     1>cutscene.obj : error LNK2019: unresolved external symbol "public: void __thiscall sf::SoundStream::setLoop(bool)" (?setLoop@SoundStream@sf@@QAEX_N@Z) referenced in function "public: bool __thiscall <lambda_cce9b1f62d360e128b17d968a46677e6>::operator()(void)const " (??R<lambda_cce9b1f62d360e128b17d968a46677e6>@@QBE_NXZ)
+     1>cutscene.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::Music::Music(void)" (??0Music@sf@@QAE@XZ) referenced in function "public: bool __thiscall <lambda_cce9b1f62d360e128b17d968a46677e6>::operator()(void)const " (??R<lambda_cce9b1f62d360e128b17d968a46677e6>@@QBE_NXZ)
+     1>cutscene.obj : error LNK2019: unresolved external symbol "public: bool __thiscall sf::Music::openFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?openFromFile@Music@sf@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: bool __thiscall <lambda_cce9b1f62d360e128b17d968a46677e6>::operator()(void)const " (??R<lambda_cce9b1f62d360e128b17d968a46677e6>@@QBE_NXZ)
+     1>C:\Users\Hubert\documents\visual studio 2013\Projects\Yingge\Debug Static\Yingge.exe : fatal error LNK1120: 6 unresolved externals
+     1>Done Building Project "C:\Users\Hubert\documents\visual studio 2013\Projects\Yingge\Yingge\Yingge.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.53
